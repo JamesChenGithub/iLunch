@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  iLunch
+
+  Created by James on 15-1-4.
+  Copyright (c) 2015年 James Chen. All rights reserved.
+*/
+
+
+// 通用
+"kOK_Str" = "确定";
+"kCancel_Str" = "取消";
+"kBack_Str" = "返回";
+"kInputErr_Str" = "输入有误！";
+"kSetting_Str" = "设置";
+"kRequestError_Str" = "请求出错";
+
+
+"kDownRefreshLoadOver" = "没有更多了";
+
+"kDownReleaseToRefresh" = "松开即可更新...";
+
+"kDownDragUpToRefresh" = "上拉即可更新...";
+
+"kDownRefreshLoading" = "加载中...";
+
+
+// 登录
+"kLogin_Account_Str" = "帐号";
+"kLogin_Password_Str" = "密码";
+"kLogin_Login_Str" = "登录";
+"kLogin_Account_Empty_Str" = "请输入帐号！";
+"kLogin_Password_Empty_Str" = "请输入密码！";
+
+// =============================================
+// Tabbar
+"kTabBar_Main_Title_Str" = "首页";
+"kTabBar_Discovery_Title_Str" = "发现";
+"kTabBar_Mine_Title_Str" = "我的";
+
+// 首页
+"kMain_Title_Str" = "爱午餐";
+"kMain_Book_Str" = "订座";
+"kMain_Pack_Str" = "打包";

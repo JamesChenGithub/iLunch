@@ -1,0 +1,57 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+
+// 0 : iLunch 1 : iLunchSeller
+#define kIsILunchSeller 0
+
+// 模拟地址假数据
+#define kSupportAddressFake 1
+#define kSupportUserLoginFake 1
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import <CoreText/CoreText.h>
+
+//=================
+// 第三方SDK
+#import "QQSDKHeaders.h"
+#import "WeChatHeaders.h"
+//=================
+
+#import "iLunchConstHeader.h"
+#import "iLunchStringsHeader.h"
+#import "iLunchImageHeader.h"
+
+#import "DataAndProtocolHeaders.h"
+
+#import "CommonLibrary.h"
+
+#import "WebServiceHeaders.h"
+
+#import "CustomViewsHeaders.h"
+
+#import "AppDelegate.h"
+
+#import "AppUIHeaders.h"
+
+#if kIsILunchSeller
+
+#import "iLunchSellerHeaders.h"
+
+#endif
+
+#endif
