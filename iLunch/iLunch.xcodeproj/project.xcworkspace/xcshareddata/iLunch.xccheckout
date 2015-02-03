@@ -10,34 +10,29 @@
 	<string>iLunch</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C4F3334C-9051-4152-A3FE-176BC3A49C0D</key>
-		<string>file:///Users/James/SVNRoot/MACSVN/iLunch/iLunch/iLunch</string>
+		<key>31104D9CB236B759A9D2E840BA5AA73107C26C34</key>
+		<string>https://github.com/JamesChenGithub/iLunch.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iLunch/iLunch.xcodeproj/project.xcworkspace</string>
+	<string>iLunch/iLunch.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C4F3334C-9051-4152-A3FE-176BC3A49C0D</key>
+		<key>31104D9CB236B759A9D2E840BA5AA73107C26C34</key>
 		<string>../../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>C4F3334C-9051-4152-A3FE-176BC3A49C0D</key>
-		<string>file:///Users/James/SVNRoot/MACSVN/iLunch/iLunch</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>file:///Users/James/SVNRoot/MACSVN/iLunch/iLunch/iLunch/iLunch/iLunch.xcodeproj</string>
+	<string>https://github.com/JamesChenGithub/iLunch.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C4F3334C-9051-4152-A3FE-176BC3A49C0D</string>
+	<string>31104D9CB236B759A9D2E840BA5AA73107C26C34</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C4F3334C-9051-4152-A3FE-176BC3A49C0D</string>
+			<string>31104D9CB236B759A9D2E840BA5AA73107C26C34</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iLunch</string>
 		</dict>

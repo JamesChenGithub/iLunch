@@ -8,6 +8,29 @@
 
 #import "GetShopData.h"
 
+@implementation GetShopDataItem
+
+
+@end
+
 @implementation GetShopData
+
+- (Class)responseClass
+{
+    return [GetShopDataResponse class];
+}
+
+- (void)parseArrayBody:(NSArray *)bodyDic
+{
+    GetShopDataResponse *resp = (GetShopDataResponse *)self.response;
+    NSMutableArray *list = [NSObject loadItem:[GetShopDataItem class] fromArrayDictionary:bodyDic];
+    resp.shopDatas = list;
+}
+
+
+@end
+
+@implementation GetShopDataResponse
+
 
 @end

@@ -108,8 +108,9 @@
     }
     
     NSString *contentJson = [NSString stringWithFormat:@"{\"Head\":%@, \"Body\":%@}", headJson, bodyJson];
-    
-    return [contentJson removeWhiteSpace];
+    contentJson = [contentJson removeWhiteSpace];
+    DebugLog(@"[---%@----]post XML is : %@", [self class], contentJson);
+    return contentJson;
 }
 
 - (NSData *)contentJSONData

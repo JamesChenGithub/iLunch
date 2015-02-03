@@ -14,6 +14,36 @@
 		1A02F8161A5C3DFA00BFE76D /* MainPackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02F8151A5C3DFA00BFE76D /* MainPackViewController.m */; };
 		1A02F8191A5C449400BFE76D /* MineLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02F8181A5C449400BFE76D /* MineLoginView.m */; };
 		1A02F81C1A5C472B00BFE76D /* MineSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A02F81B1A5C472B00BFE76D /* MineSettingViewController.m */; };
+		1A155E6A1A810FA70088A3AD /* CheckIsCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E691A810FA70088A3AD /* CheckIsCollect.m */; };
+		1A155E6B1A810FA70088A3AD /* CheckIsCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E691A810FA70088A3AD /* CheckIsCollect.m */; };
+		1A155E6E1A8111540088A3AD /* GetFoodImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E6D1A8111540088A3AD /* GetFoodImg.m */; };
+		1A155E6F1A8111540088A3AD /* GetFoodImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E6D1A8111540088A3AD /* GetFoodImg.m */; };
+		1A155E721A8112B00088A3AD /* AddToCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E711A8112B00088A3AD /* AddToCart.m */; };
+		1A155E731A8112B00088A3AD /* AddToCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E711A8112B00088A3AD /* AddToCart.m */; };
+		1A155E761A8117AB0088A3AD /* GetCartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E751A8117AB0088A3AD /* GetCartList.m */; };
+		1A155E771A8117AB0088A3AD /* GetCartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E751A8117AB0088A3AD /* GetCartList.m */; };
+		1A155E7A1A8119B60088A3AD /* GetMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E791A8119B60088A3AD /* GetMyAddress.m */; };
+		1A155E7B1A8119B60088A3AD /* GetMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E791A8119B60088A3AD /* GetMyAddress.m */; };
+		1A155E7E1A811D110088A3AD /* GetSTemplateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E7D1A811D110088A3AD /* GetSTemplateList.m */; };
+		1A155E7F1A811D110088A3AD /* GetSTemplateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E7D1A811D110088A3AD /* GetSTemplateList.m */; };
+		1A155E821A811EFB0088A3AD /* SubmitOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E811A811EFB0088A3AD /* SubmitOrder.m */; };
+		1A155E831A811EFB0088A3AD /* SubmitOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E811A811EFB0088A3AD /* SubmitOrder.m */; };
+		1A155E861A8122C30088A3AD /* UpdateOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E851A8122C30088A3AD /* UpdateOrder.m */; };
+		1A155E871A8122C30088A3AD /* UpdateOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E851A8122C30088A3AD /* UpdateOrder.m */; };
+		1A155E8A1A81254C0088A3AD /* GetComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E891A81254C0088A3AD /* GetComment.m */; };
+		1A155E8B1A81254C0088A3AD /* GetComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E891A81254C0088A3AD /* GetComment.m */; };
+		1A155E8E1A8128540088A3AD /* AddComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E8D1A8128540088A3AD /* AddComment.m */; };
+		1A155E8F1A8128540088A3AD /* AddComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E8D1A8128540088A3AD /* AddComment.m */; };
+		1A155E921A812AFB0088A3AD /* AddMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E911A812AFB0088A3AD /* AddMyAddress.m */; };
+		1A155E931A812AFB0088A3AD /* AddMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E911A812AFB0088A3AD /* AddMyAddress.m */; };
+		1A155E961A812C6F0088A3AD /* UpdateMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E951A812C6F0088A3AD /* UpdateMyAddress.m */; };
+		1A155E971A812C6F0088A3AD /* UpdateMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E951A812C6F0088A3AD /* UpdateMyAddress.m */; };
+		1A155E9A1A812D260088A3AD /* DelMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E991A812D260088A3AD /* DelMyAddress.m */; };
+		1A155E9B1A812D260088A3AD /* DelMyAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E991A812D260088A3AD /* DelMyAddress.m */; };
+		1A155E9E1A812DA40088A3AD /* GetMyCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E9D1A812DA40088A3AD /* GetMyCollect.m */; };
+		1A155E9F1A812DA40088A3AD /* GetMyCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155E9D1A812DA40088A3AD /* GetMyCollect.m */; };
+		1A155EA21A8130B60088A3AD /* GetMyOrderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155EA11A8130B60088A3AD /* GetMyOrderList.m */; };
+		1A155EA31A8130B60088A3AD /* GetMyOrderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A155EA11A8130B60088A3AD /* GetMyOrderList.m */; };
 		1A253C3D1A6176F100D43C76 /* OrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A253C3C1A6176F100D43C76 /* OrderInfoViewController.m */; };
 		1A253C401A61773100D43C76 /* BookOrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A253C3F1A61773100D43C76 /* BookOrderInfoViewController.m */; };
 		1A253C431A61774700D43C76 /* PackOrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A253C421A61774700D43C76 /* PackOrderInfoViewController.m */; };
@@ -39,8 +69,6 @@
 		1A6C67BE1A791C6B001131F9 /* GetFoodList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67BC1A791C6B001131F9 /* GetFoodList.m */; };
 		1A6C67C11A791C8A001131F9 /* UserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67C01A791C8A001131F9 /* UserLogin.m */; };
 		1A6C67C21A791C8A001131F9 /* UserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67C01A791C8A001131F9 /* UserLogin.m */; };
-		1A6C67C51A791CBC001131F9 /* ShopsLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67C41A791CBC001131F9 /* ShopsLogin.m */; };
-		1A6C67C61A791CBC001131F9 /* ShopsLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67C41A791CBC001131F9 /* ShopsLogin.m */; };
 		1A6C67CD1A791CE5001131F9 /* GetShopData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67CC1A791CE5001131F9 /* GetShopData.m */; };
 		1A6C67CE1A791CE5001131F9 /* GetShopData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C67CC1A791CE5001131F9 /* GetShopData.m */; };
 		1A701FC11A6FDD680001385D /* SellerFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A701FC01A6FDD680001385D /* SellerFoodViewController.m */; };
@@ -393,6 +421,36 @@
 		1A02F8181A5C449400BFE76D /* MineLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineLoginView.m; sourceTree = "<group>"; };
 		1A02F81A1A5C472B00BFE76D /* MineSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSettingViewController.h; sourceTree = "<group>"; };
 		1A02F81B1A5C472B00BFE76D /* MineSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSettingViewController.m; sourceTree = "<group>"; };
+		1A155E681A810FA70088A3AD /* CheckIsCollect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckIsCollect.h; sourceTree = "<group>"; };
+		1A155E691A810FA70088A3AD /* CheckIsCollect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckIsCollect.m; sourceTree = "<group>"; };
+		1A155E6C1A8111540088A3AD /* GetFoodImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFoodImg.h; sourceTree = "<group>"; };
+		1A155E6D1A8111540088A3AD /* GetFoodImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFoodImg.m; sourceTree = "<group>"; };
+		1A155E701A8112B00088A3AD /* AddToCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCart.h; sourceTree = "<group>"; };
+		1A155E711A8112B00088A3AD /* AddToCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCart.m; sourceTree = "<group>"; };
+		1A155E741A8117AB0088A3AD /* GetCartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCartList.h; sourceTree = "<group>"; };
+		1A155E751A8117AB0088A3AD /* GetCartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCartList.m; sourceTree = "<group>"; };
+		1A155E781A8119B60088A3AD /* GetMyAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMyAddress.h; sourceTree = "<group>"; };
+		1A155E791A8119B60088A3AD /* GetMyAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMyAddress.m; sourceTree = "<group>"; };
+		1A155E7C1A811D110088A3AD /* GetSTemplateList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSTemplateList.h; sourceTree = "<group>"; };
+		1A155E7D1A811D110088A3AD /* GetSTemplateList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSTemplateList.m; sourceTree = "<group>"; };
+		1A155E801A811EFB0088A3AD /* SubmitOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitOrder.h; sourceTree = "<group>"; };
+		1A155E811A811EFB0088A3AD /* SubmitOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitOrder.m; sourceTree = "<group>"; };
+		1A155E841A8122C30088A3AD /* UpdateOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateOrder.h; sourceTree = "<group>"; };
+		1A155E851A8122C30088A3AD /* UpdateOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateOrder.m; sourceTree = "<group>"; };
+		1A155E881A81254C0088A3AD /* GetComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetComment.h; sourceTree = "<group>"; };
+		1A155E891A81254C0088A3AD /* GetComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetComment.m; sourceTree = "<group>"; };
+		1A155E8C1A8128540088A3AD /* AddComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddComment.h; sourceTree = "<group>"; };
+		1A155E8D1A8128540088A3AD /* AddComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddComment.m; sourceTree = "<group>"; };
+		1A155E901A812AFB0088A3AD /* AddMyAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMyAddress.h; sourceTree = "<group>"; };
+		1A155E911A812AFB0088A3AD /* AddMyAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMyAddress.m; sourceTree = "<group>"; };
+		1A155E941A812C6F0088A3AD /* UpdateMyAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateMyAddress.h; sourceTree = "<group>"; };
+		1A155E951A812C6F0088A3AD /* UpdateMyAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateMyAddress.m; sourceTree = "<group>"; };
+		1A155E981A812D260088A3AD /* DelMyAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelMyAddress.h; sourceTree = "<group>"; };
+		1A155E991A812D260088A3AD /* DelMyAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelMyAddress.m; sourceTree = "<group>"; };
+		1A155E9C1A812DA40088A3AD /* GetMyCollect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMyCollect.h; sourceTree = "<group>"; };
+		1A155E9D1A812DA40088A3AD /* GetMyCollect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMyCollect.m; sourceTree = "<group>"; };
+		1A155EA01A8130B60088A3AD /* GetMyOrderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMyOrderList.h; sourceTree = "<group>"; };
+		1A155EA11A8130B60088A3AD /* GetMyOrderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMyOrderList.m; sourceTree = "<group>"; };
 		1A253C3B1A6176F100D43C76 /* OrderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderInfoViewController.h; sourceTree = "<group>"; };
 		1A253C3C1A6176F100D43C76 /* OrderInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderInfoViewController.m; sourceTree = "<group>"; };
 		1A253C3E1A61773100D43C76 /* BookOrderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookOrderInfoViewController.h; sourceTree = "<group>"; };
@@ -435,8 +493,6 @@
 		1A6C67BC1A791C6B001131F9 /* GetFoodList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFoodList.m; sourceTree = "<group>"; };
 		1A6C67BF1A791C8A001131F9 /* UserLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogin.h; sourceTree = "<group>"; };
 		1A6C67C01A791C8A001131F9 /* UserLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLogin.m; sourceTree = "<group>"; };
-		1A6C67C31A791CBC001131F9 /* ShopsLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopsLogin.h; sourceTree = "<group>"; };
-		1A6C67C41A791CBC001131F9 /* ShopsLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopsLogin.m; sourceTree = "<group>"; };
 		1A6C67CB1A791CE5001131F9 /* GetShopData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetShopData.h; sourceTree = "<group>"; };
 		1A6C67CC1A791CE5001131F9 /* GetShopData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetShopData.m; sourceTree = "<group>"; };
 		1A6C67CF1A79274D001131F9 /* NextMenuChainAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextMenuChainAble.h; sourceTree = "<group>"; };
@@ -1568,10 +1624,38 @@
 				1A6C67BC1A791C6B001131F9 /* GetFoodList.m */,
 				1A6C67BF1A791C8A001131F9 /* UserLogin.h */,
 				1A6C67C01A791C8A001131F9 /* UserLogin.m */,
-				1A6C67C31A791CBC001131F9 /* ShopsLogin.h */,
-				1A6C67C41A791CBC001131F9 /* ShopsLogin.m */,
 				1A6C67CB1A791CE5001131F9 /* GetShopData.h */,
 				1A6C67CC1A791CE5001131F9 /* GetShopData.m */,
+				1A155E681A810FA70088A3AD /* CheckIsCollect.h */,
+				1A155E691A810FA70088A3AD /* CheckIsCollect.m */,
+				1A155E6C1A8111540088A3AD /* GetFoodImg.h */,
+				1A155E6D1A8111540088A3AD /* GetFoodImg.m */,
+				1A155E701A8112B00088A3AD /* AddToCart.h */,
+				1A155E711A8112B00088A3AD /* AddToCart.m */,
+				1A155E741A8117AB0088A3AD /* GetCartList.h */,
+				1A155E751A8117AB0088A3AD /* GetCartList.m */,
+				1A155E781A8119B60088A3AD /* GetMyAddress.h */,
+				1A155E791A8119B60088A3AD /* GetMyAddress.m */,
+				1A155E7C1A811D110088A3AD /* GetSTemplateList.h */,
+				1A155E7D1A811D110088A3AD /* GetSTemplateList.m */,
+				1A155E801A811EFB0088A3AD /* SubmitOrder.h */,
+				1A155E811A811EFB0088A3AD /* SubmitOrder.m */,
+				1A155E841A8122C30088A3AD /* UpdateOrder.h */,
+				1A155E851A8122C30088A3AD /* UpdateOrder.m */,
+				1A155E881A81254C0088A3AD /* GetComment.h */,
+				1A155E891A81254C0088A3AD /* GetComment.m */,
+				1A155E8C1A8128540088A3AD /* AddComment.h */,
+				1A155E8D1A8128540088A3AD /* AddComment.m */,
+				1A155E901A812AFB0088A3AD /* AddMyAddress.h */,
+				1A155E911A812AFB0088A3AD /* AddMyAddress.m */,
+				1A155E941A812C6F0088A3AD /* UpdateMyAddress.h */,
+				1A155E951A812C6F0088A3AD /* UpdateMyAddress.m */,
+				1A155E981A812D260088A3AD /* DelMyAddress.h */,
+				1A155E991A812D260088A3AD /* DelMyAddress.m */,
+				1A155E9C1A812DA40088A3AD /* GetMyCollect.h */,
+				1A155E9D1A812DA40088A3AD /* GetMyCollect.m */,
+				1A155EA01A8130B60088A3AD /* GetMyOrderList.h */,
+				1A155EA11A8130B60088A3AD /* GetMyOrderList.m */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -1797,6 +1881,8 @@
 				1AA7DC541A598E5E00168EA5 /* GTMBase64.m in Sources */,
 				1ADE77071A5EBC8F00EB7FB8 /* UserLoginFakeItem.m in Sources */,
 				1A6C67C11A791C8A001131F9 /* UserLogin.m in Sources */,
+				1A155E6E1A8111540088A3AD /* GetFoodImg.m in Sources */,
+				1A155E8A1A81254C0088A3AD /* GetComment.m in Sources */,
 				1ADE770A1A5EC48900EB7FB8 /* LunchAlertViewController.m in Sources */,
 				1AA7DC4C1A598E5E00168EA5 /* UITableViewController+ADScaleTransititon.m in Sources */,
 				1AF6F0CD1A6107CB0081783D /* ScrollIndexView.m in Sources */,
@@ -1830,6 +1916,7 @@
 				1AA7DC9A1A598E5E00168EA5 /* NSObject+loadPadClass.m in Sources */,
 				1A67E2C11A6A5B9800A4FFBE /* ConfirmPackOrderViewController.m in Sources */,
 				1A4582241A6D4E18009F7925 /* ModifyPwdViewControllre.m in Sources */,
+				1A155E921A812AFB0088A3AD /* AddMyAddress.m in Sources */,
 				1A969AEF1A6EB04B0078874B /* VRGCalendarView.m in Sources */,
 				1A8232BC1A6BF51500A5F88A /* GetCity.m in Sources */,
 				1AAB20A51A6BB3B500F34669 /* BaseRequest.m in Sources */,
@@ -1860,6 +1947,7 @@
 				1AA7DC6A1A598E5E00168EA5 /* UITextField+Common.m in Sources */,
 				1A6C67CD1A791CE5001131F9 /* GetShopData.m in Sources */,
 				1AA7DC9D1A598E5E00168EA5 /* ScrollBaseViewController.m in Sources */,
+				1A155E761A8117AB0088A3AD /* GetCartList.m in Sources */,
 				1AA7DC941A598E5E00168EA5 /* BaseCollectionViewController.m in Sources */,
 				1A02F8191A5C449400BFE76D /* MineLoginView.m in Sources */,
 				1AAB20A91A6BC05800F34669 /* LoginUser.m in Sources */,
@@ -1870,7 +1958,6 @@
 				1AA7DC7E1A598E5E00168EA5 /* NSMutableDictionary+Json.m in Sources */,
 				1A46F2251A6404EA0093818F /* QuickLoginViewController.m in Sources */,
 				1A67E2BE1A6A5B8500A4FFBE /* ConfirmBookOrderViewController.m in Sources */,
-				1A6C67C51A791CBC001131F9 /* ShopsLogin.m in Sources */,
 				1AA7DC681A598E5E00168EA5 /* UIImage+TintColor.m in Sources */,
 				1AA7DC981A598E5E00168EA5 /* MenuItem.m in Sources */,
 				1AA7DC6D1A598E5E00168EA5 /* UIView+RelativeCoordinate.m in Sources */,
@@ -1884,9 +1971,15 @@
 				1AF6F0C71A60FFA50081783D /* HeaderTitleView.m in Sources */,
 				1ADE770D1A5EC77C00EB7FB8 /* AppSetting.m in Sources */,
 				1AA7DC921A598E5E00168EA5 /* BarButtonItem.m in Sources */,
+				1A155EA21A8130B60088A3AD /* GetMyOrderList.m in Sources */,
 				1AA7DC741A598E5E00168EA5 /* MenuButton.m in Sources */,
+				1A155E961A812C6F0088A3AD /* UpdateMyAddress.m in Sources */,
+				1A155E821A811EFB0088A3AD /* SubmitOrder.m in Sources */,
 				1A969AE71A6EB04B0078874B /* NSMutableArray+convenience.m in Sources */,
+				1A155E7A1A8119B60088A3AD /* GetMyAddress.m in Sources */,
+				1A155E721A8112B00088A3AD /* AddToCart.m in Sources */,
 				1AA7DCA21A598E5E00168EA5 /* UIViewController+Layout.m in Sources */,
+				1A155E9E1A812DA40088A3AD /* GetMyCollect.m in Sources */,
 				1A969AC01A6E91480078874B /* OrderTableViewCell.m in Sources */,
 				1AA7DC5E1A598E5E00168EA5 /* NSString+RegexCheck.m in Sources */,
 				1AA7DC911A598E5E00168EA5 /* MBProgressHUD.m in Sources */,
@@ -1896,6 +1989,7 @@
 				1AA7DC521A598E5E00168EA5 /* FTUtils+NSObject.m in Sources */,
 				1AA7DC971A598E5E00168EA5 /* KeyValue.m in Sources */,
 				1AA7DC5F1A598E5E00168EA5 /* Queue.m in Sources */,
+				1A155E6A1A810FA70088A3AD /* CheckIsCollect.m in Sources */,
 				1AA7DC601A598E5E00168EA5 /* Stack.m in Sources */,
 				1AA7DC751A598E5E00168EA5 /* MoreTableView.m in Sources */,
 				1AA7DCA01A598E5E00168EA5 /* UIView+Layout.m in Sources */,
@@ -1909,6 +2003,7 @@
 				1AA7DC951A598E5E00168EA5 /* BaseViewController.m in Sources */,
 				1AA7DC5D1A598E5E00168EA5 /* NSString+Common.m in Sources */,
 				1AA7DC9E1A598E5E00168EA5 /* ScrollViewController.m in Sources */,
+				1A155E8E1A8128540088A3AD /* AddComment.m in Sources */,
 				1A6C67BD1A791C6B001131F9 /* GetFoodList.m in Sources */,
 				1AC02E331A62B0E0003B3ED2 /* MyCommentViewController.m in Sources */,
 				1AA7DC811A598E5E00168EA5 /* NSData+MKBase64.m in Sources */,
@@ -1917,11 +2012,13 @@
 				1A02F8161A5C3DFA00BFE76D /* MainPackViewController.m in Sources */,
 				1A253C461A617F6900D43C76 /* OrderLunchTimeViewController.m in Sources */,
 				1AA7DC4B1A598E5E00168EA5 /* UICollectionViewController+ADScaleTransition.m in Sources */,
+				1A155E861A8122C30088A3AD /* UpdateOrder.m in Sources */,
 				1A770BAC1A5D78920018EA3F /* AddressManageTableViewCell.m in Sources */,
 				1AA7DC7F1A598E5E00168EA5 /* NSObject+Json.m in Sources */,
 				1A87492F1A624B84008BE7AD /* DiscoveryListTableViewCell.m in Sources */,
 				1A67E2BB1A6A5B6700A4FFBE /* ConfirmOrderViewController.m in Sources */,
 				1AF6F0CA1A6102EB0081783D /* SegButton.m in Sources */,
+				1A155E7E1A811D110088A3AD /* GetSTemplateList.m in Sources */,
 				1AD1AB671A6AC17D00707DD3 /* WebServiceEngine.m in Sources */,
 				1AA7DC4F1A598E5E00168EA5 /* UIViewController+ADTransition.m in Sources */,
 				1A8749261A623E5C008BE7AD /* DiscoverListViewController.m in Sources */,
@@ -1945,6 +2042,7 @@
 				1AA7DC851A598E5E00168EA5 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 				1AC02E361A62B17B003B3ED2 /* CommentFoodViewController.m in Sources */,
 				1AA7DC571A598E5E00168EA5 /* NSArray+Common.m in Sources */,
+				1A155E9A1A812D260088A3AD /* DelMyAddress.m in Sources */,
 				1A770BA51A5D6FE40018EA3F /* AddressManageViewController.m in Sources */,
 				1AA7DC7C1A598E5E00168EA5 /* IOSDeviceConfig.m in Sources */,
 				1A969AE51A6EB04B0078874B /* NSDate+convenience.m in Sources */,
@@ -1966,10 +2064,12 @@
 				1AD532301A6C0009001FE4AE /* SellerMineViewController.m in Sources */,
 				1AD5317E1A6BFBCD001FE4AE /* GTMBase64.m in Sources */,
 				1AD5317F1A6BFBCD001FE4AE /* UserLoginFakeItem.m in Sources */,
+				1A155E6F1A8111540088A3AD /* GetFoodImg.m in Sources */,
 				1AD531801A6BFBCD001FE4AE /* LunchAlertViewController.m in Sources */,
 				1A969AE61A6EB04B0078874B /* NSDate+convenience.m in Sources */,
 				1AD531811A6BFBCD001FE4AE /* UITableViewController+ADScaleTransititon.m in Sources */,
 				1AD531821A6BFBCD001FE4AE /* ScrollIndexView.m in Sources */,
+				1A155E6B1A810FA70088A3AD /* CheckIsCollect.m in Sources */,
 				1AD531831A6BFBCD001FE4AE /* UIViewController+ChildViewController.m in Sources */,
 				1AD531841A6BFBCD001FE4AE /* Reachability.m in Sources */,
 				1AD531851A6BFBCD001FE4AE /* AboutAppViewController.m in Sources */,
@@ -1980,6 +2080,7 @@
 				1AD5318A1A6BFBCD001FE4AE /* NSData+Common.m in Sources */,
 				1A701FC41A6FDD7B0001385D /* SellerFoodListViewController.m in Sources */,
 				1AD5318B1A6BFBCD001FE4AE /* Singleton.m in Sources */,
+				1A155EA31A8130B60088A3AD /* GetMyOrderList.m in Sources */,
 				1AD5318C1A6BFBCD001FE4AE /* OrderInfoTableViewCell.m in Sources */,
 				1AD5318D1A6BFBCD001FE4AE /* ImageTitleButton.m in Sources */,
 				1AD5318E1A6BFBCD001FE4AE /* MineViewController.m in Sources */,
@@ -2007,13 +2108,13 @@
 				1AD5319F1A6BFBCD001FE4AE /* BaseRequest.m in Sources */,
 				1AD531A01A6BFBCD001FE4AE /* UITextField+UITextField_Tip.m in Sources */,
 				1AD531A11A6BFBCD001FE4AE /* UIView+ModifyFrame.m in Sources */,
-				1A6C67C61A791CBC001131F9 /* ShopsLogin.m in Sources */,
 				1AD531A21A6BFBCD001FE4AE /* PathUtility.m in Sources */,
 				1AD531A31A6BFBCD001FE4AE /* iLunchLoginViewcontroller.m in Sources */,
 				1AD531A41A6BFBCD001FE4AE /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				1A4582321A6D5C1D009F7925 /* SellerAllOrderViewController.m in Sources */,
 				1AD531A51A6BFBCD001FE4AE /* EditView.m in Sources */,
 				1AD531A61A6BFBCD001FE4AE /* UIViewController+ADScaleTransition.m in Sources */,
+				1A155E731A8112B00088A3AD /* AddToCart.m in Sources */,
 				1AD531A71A6BFBCD001FE4AE /* PopupView.m in Sources */,
 				1AD531A81A6BFBCD001FE4AE /* PackOrderInfoViewController.m in Sources */,
 				1AD531A91A6BFBCD001FE4AE /* JSONKit.m in Sources */,
@@ -2023,6 +2124,7 @@
 				1AD531AC1A6BFBCD001FE4AE /* FTAnimationManager.m in Sources */,
 				1AD531AD1A6BFBCD001FE4AE /* UITableViewCell+MoreButton.m in Sources */,
 				1AD531AE1A6BFBCD001FE4AE /* NSObject+CommonBlock.m in Sources */,
+				1A155E8F1A8128540088A3AD /* AddComment.m in Sources */,
 				1AD531AF1A6BFBCD001FE4AE /* UIImage+Cut.m in Sources */,
 				1AD531B01A6BFBCD001FE4AE /* MyLocationViewController.m in Sources */,
 				1AD532331A6C0441001FE4AE /* SellMineTableViewCell.m in Sources */,
@@ -2041,12 +2143,15 @@
 				1A31A1C91A73E65C0083F0D3 /* SellerFoodTypeView.m in Sources */,
 				1AD531B91A6BFBCD001FE4AE /* LoginUser.m in Sources */,
 				1AD792DA1A6D3A6A00D2E12A /* SellerModifyPwdViewControllre.m in Sources */,
+				1A155E871A8122C30088A3AD /* UpdateOrder.m in Sources */,
 				1AD531BA1A6BFBCD001FE4AE /* FoodTableViewCell.m in Sources */,
 				1AD531BB1A6BFBCD001FE4AE /* UIColor+MLPFlatColors.m in Sources */,
 				1AD531BC1A6BFBCD001FE4AE /* MainBookViewController.m in Sources */,
+				1A155E971A812C6F0088A3AD /* UpdateMyAddress.m in Sources */,
 				1AD531BD1A6BFBCD001FE4AE /* UIPlaceHolderTextView.m in Sources */,
 				1AD531BE1A6BFBCD001FE4AE /* NSMutableDictionary+Json.m in Sources */,
 				1AD531BF1A6BFBCD001FE4AE /* QuickLoginViewController.m in Sources */,
+				1A155E831A811EFB0088A3AD /* SubmitOrder.m in Sources */,
 				1AD531C01A6BFBCD001FE4AE /* ConfirmBookOrderViewController.m in Sources */,
 				1AD531C11A6BFBCD001FE4AE /* UIImage+TintColor.m in Sources */,
 				1AD531C21A6BFBCD001FE4AE /* MenuItem.m in Sources */,
@@ -2056,6 +2161,7 @@
 				1A701FD01A6FE3270001385D /* SellerFoodListTableViewCell.m in Sources */,
 				1AD531C61A6BFBCD001FE4AE /* NSDictionary+RequestEncoding.m in Sources */,
 				1A969AF01A6EB04B0078874B /* VRGCalendarView.m in Sources */,
+				1A155E9F1A812DA40088A3AD /* GetMyCollect.m in Sources */,
 				1A701FD71A7006150001385D /* TextFieldLine.m in Sources */,
 				1AD531C71A6BFBCD001FE4AE /* PageScrollView.m in Sources */,
 				1A31A1C61A73E27A0083F0D3 /* SellerMethodView.m in Sources */,
@@ -2066,6 +2172,7 @@
 				1AD531CC1A6BFBCD001FE4AE /* AppSetting.m in Sources */,
 				1AD531CD1A6BFBCD001FE4AE /* BarButtonItem.m in Sources */,
 				1AD531CE1A6BFBCD001FE4AE /* MenuButton.m in Sources */,
+				1A155E771A8117AB0088A3AD /* GetCartList.m in Sources */,
 				1AD531CF1A6BFBCD001FE4AE /* UIViewController+Layout.m in Sources */,
 				1A969AEC1A6EB04B0078874B /* UIView+convenience.m in Sources */,
 				1AD531D01A6BFBCD001FE4AE /* NSString+RegexCheck.m in Sources */,
@@ -2090,7 +2197,9 @@
 				1AD531E01A6BFBCD001FE4AE /* UIView+CustomAutoLayout.m in Sources */,
 				1AD531E11A6BFBCD001FE4AE /* NSObject+KVOCategory.m in Sources */,
 				1AD531E21A6BFBCD001FE4AE /* BaseViewController.m in Sources */,
+				1A155E9B1A812D260088A3AD /* DelMyAddress.m in Sources */,
 				1AD531E31A6BFBCD001FE4AE /* NSString+Common.m in Sources */,
+				1A155E7F1A811D110088A3AD /* GetSTemplateList.m in Sources */,
 				1AD531E41A6BFBCD001FE4AE /* ScrollViewController.m in Sources */,
 				1AD531E51A6BFBCD001FE4AE /* MyCommentViewController.m in Sources */,
 				1AD531E61A6BFBCD001FE4AE /* NSData+MKBase64.m in Sources */,
@@ -2113,13 +2222,16 @@
 				1AD531F31A6BFBCD001FE4AE /* DiscoverListViewController.m in Sources */,
 				1AD531F41A6BFBCD001FE4AE /* UICollectionViewController+ADFlipTransition.m in Sources */,
 				1AD531F51A6BFBCD001FE4AE /* ADTransition.m in Sources */,
+				1A155E7B1A8119B60088A3AD /* GetMyAddress.m in Sources */,
 				1AD531F61A6BFBCD001FE4AE /* NSDate+RFC1123.m in Sources */,
 				1AD531F71A6BFBCD001FE4AE /* ShoppingCartView.m in Sources */,
 				1AD531F81A6BFBCD001FE4AE /* NSDate+Common.m in Sources */,
 				1AD531F91A6BFBCD001FE4AE /* AppDelegate.m in Sources */,
 				1AD531FA1A6BFBCD001FE4AE /* AddNewAddressViewController.m in Sources */,
+				1A155E8B1A81254C0088A3AD /* GetComment.m in Sources */,
 				1AD531FB1A6BFBCD001FE4AE /* UIButton+Common.m in Sources */,
 				1AD531FC1A6BFBCD001FE4AE /* NavigationViewController.m in Sources */,
+				1A155E931A812AFB0088A3AD /* AddMyAddress.m in Sources */,
 				1AD531FD1A6BFBCD001FE4AE /* CommonBaseViewController.m in Sources */,
 				1AD531FE1A6BFBCD001FE4AE /* main.m in Sources */,
 				1AD531FF1A6BFBCD001FE4AE /* PaymentButton.m in Sources */,
