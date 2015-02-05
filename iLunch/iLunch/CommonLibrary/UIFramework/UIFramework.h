@@ -39,5 +39,13 @@
 
 #import "KeyValue.h"
 
+#import "RefreshAbleView.h"
+
+#import "RefreshView.h"
+
+#import "ScrollRefreshViewController.h"
+
+#import "TableRefreshViewController.h"
+
 
 #endif

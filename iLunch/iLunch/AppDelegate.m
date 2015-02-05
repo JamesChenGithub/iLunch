@@ -27,11 +27,18 @@
 #endif
 - (void)enterMainUI
 {
+    
 #if kIsILunchSeller
     SellerMineViewController *minevc = [NSObject loadClass:[SellerMineViewController class]];
     NavigationViewController *mineNav = [[NavigationViewController alloc] initWithRootViewController:minevc];
     self.window.rootViewController = mineNav;
 #else
+    
+    [[UITabBar appearance] setBackgroundImage:kTabBar_Background_Image];
+    [[UITabBar appearance] setTintColor:kThemeColor];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:kBlackColor, NSForegroundColorAttributeName,nil] forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:kThemeColor, NSForegroundColorAttributeName,nil] forState:UIControlStateSelected];
     
     MainViewController *mainvc = [NSObject loadClass:[MainViewController class]];
     NavigationViewController *mainNav = [[NavigationViewController alloc] initWithRootViewController:mainvc];
@@ -55,11 +62,7 @@
     [self.tabBarController setViewControllers:@[mainNav, disNav, mineNav]];
     self.window.rootViewController = self.tabBarController;
     
-    [[UITabBar appearance] setBackgroundImage:kTabBar_Background_Image];
-    [[UITabBar appearance] setTintColor:kThemeColor];
-    
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:kBlackColor, NSForegroundColorAttributeName,nil] forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:kThemeColor, NSForegroundColorAttributeName,nil] forState:UIControlStateSelected];
+
 #endif
     
 }

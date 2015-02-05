@@ -51,6 +51,8 @@
 		1A253C491A61854500D43C76 /* UITableView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A253C481A61854500D43C76 /* UITableView+Refresh.m */; };
 		1A31A1C61A73E27A0083F0D3 /* SellerMethodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31A1C51A73E27A0083F0D3 /* SellerMethodView.m */; };
 		1A31A1C91A73E65C0083F0D3 /* SellerFoodTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31A1C81A73E65C0083F0D3 /* SellerFoodTypeView.m */; };
+		1A4035911A83A94F007BAC37 /* TableRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4035901A83A94E007BAC37 /* TableRefreshViewController.m */; };
+		1A4035921A83A94F007BAC37 /* TableRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4035901A83A94E007BAC37 /* TableRefreshViewController.m */; };
 		1A4582241A6D4E18009F7925 /* ModifyPwdViewControllre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4582231A6D4E18009F7925 /* ModifyPwdViewControllre.m */; };
 		1A4582251A6D4E51009F7925 /* ModifyPwdViewControllre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4582231A6D4E18009F7925 /* ModifyPwdViewControllre.m */; };
 		1A4582261A6D580C009F7925 /* SellerImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD532471A6C0EAB001FE4AE /* SellerImages.xcassets */; };
@@ -395,6 +397,10 @@
 		1ADE77101A5ED21500EB7FB8 /* LunchTimeSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE770F1A5ED21500EB7FB8 /* LunchTimeSettingView.m */; };
 		1ADE77131A5EDA8600EB7FB8 /* AboutAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE77121A5EDA8600EB7FB8 /* AboutAppViewController.m */; };
 		1ADE77161A5EE19D00EB7FB8 /* AddDecView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE77151A5EE19D00EB7FB8 /* AddDecView.m */; };
+		1AEC6B131A82725E00E44714 /* ScrollRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC6B121A82725E00E44714 /* ScrollRefreshViewController.m */; };
+		1AEC6B141A82725E00E44714 /* ScrollRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC6B121A82725E00E44714 /* ScrollRefreshViewController.m */; };
+		1AEC6B171A82728D00E44714 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC6B161A82728D00E44714 /* RefreshView.m */; };
+		1AEC6B181A82728D00E44714 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC6B161A82728D00E44714 /* RefreshView.m */; };
 		1AF6F0C71A60FFA50081783D /* HeaderTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6F0C61A60FFA50081783D /* HeaderTitleView.m */; };
 		1AF6F0CA1A6102EB0081783D /* SegButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6F0C91A6102EB0081783D /* SegButton.m */; };
 		1AF6F0CD1A6107CB0081783D /* ScrollIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6F0CC1A6107CB0081783D /* ScrollIndexView.m */; };
@@ -465,6 +471,8 @@
 		1A31A1C51A73E27A0083F0D3 /* SellerMethodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerMethodView.m; sourceTree = "<group>"; };
 		1A31A1C71A73E65C0083F0D3 /* SellerFoodTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerFoodTypeView.h; sourceTree = "<group>"; };
 		1A31A1C81A73E65C0083F0D3 /* SellerFoodTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerFoodTypeView.m; sourceTree = "<group>"; };
+		1A40358F1A83A94E007BAC37 /* TableRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRefreshViewController.h; sourceTree = "<group>"; };
+		1A4035901A83A94E007BAC37 /* TableRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRefreshViewController.m; sourceTree = "<group>"; };
 		1A4582221A6D4E18009F7925 /* ModifyPwdViewControllre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyPwdViewControllre.h; sourceTree = "<group>"; };
 		1A4582231A6D4E18009F7925 /* ModifyPwdViewControllre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyPwdViewControllre.m; sourceTree = "<group>"; };
 		1A4582271A6D594D009F7925 /* SellerEmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerEmptyViewController.h; sourceTree = "<group>"; };
@@ -854,6 +862,11 @@
 		1ADE77121A5EDA8600EB7FB8 /* AboutAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAppViewController.m; sourceTree = "<group>"; };
 		1ADE77141A5EE19D00EB7FB8 /* AddDecView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDecView.h; sourceTree = "<group>"; };
 		1ADE77151A5EE19D00EB7FB8 /* AddDecView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDecView.m; sourceTree = "<group>"; };
+		1AEC6B0C1A826F6700E44714 /* RefreshAbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshAbleView.h; sourceTree = "<group>"; };
+		1AEC6B111A82725E00E44714 /* ScrollRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollRefreshViewController.h; sourceTree = "<group>"; };
+		1AEC6B121A82725E00E44714 /* ScrollRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollRefreshViewController.m; sourceTree = "<group>"; };
+		1AEC6B151A82728D00E44714 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		1AEC6B161A82728D00E44714 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
 		1AF6F0C51A60FFA50081783D /* HeaderTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTitleView.h; sourceTree = "<group>"; };
 		1AF6F0C61A60FFA50081783D /* HeaderTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTitleView.m; sourceTree = "<group>"; };
 		1AF6F0C81A6102EB0081783D /* SegButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegButton.h; sourceTree = "<group>"; };
@@ -1547,6 +1560,13 @@
 				1AA7DC261A598E5E00168EA5 /* UIView+Layout.m */,
 				1AA7DC291A598E5E00168EA5 /* UIViewController+Layout.h */,
 				1AA7DC2A1A598E5E00168EA5 /* UIViewController+Layout.m */,
+				1AEC6B0C1A826F6700E44714 /* RefreshAbleView.h */,
+				1AEC6B111A82725E00E44714 /* ScrollRefreshViewController.h */,
+				1AEC6B121A82725E00E44714 /* ScrollRefreshViewController.m */,
+				1AEC6B151A82728D00E44714 /* RefreshView.h */,
+				1AEC6B161A82728D00E44714 /* RefreshView.m */,
+				1A40358F1A83A94E007BAC37 /* TableRefreshViewController.h */,
+				1A4035901A83A94E007BAC37 /* TableRefreshViewController.m */,
 			);
 			path = UIFramework;
 			sourceTree = "<group>";
@@ -1889,10 +1909,12 @@
 				1AA7DC6E1A598E5E00168EA5 /* UIViewController+ChildViewController.m in Sources */,
 				1AA7DC8A1A598E5E00168EA5 /* Reachability.m in Sources */,
 				1ADE77131A5EDA8600EB7FB8 /* AboutAppViewController.m in Sources */,
+				1AEC6B171A82728D00E44714 /* RefreshView.m in Sources */,
 				1A969AF71A6EB0860078874B /* CalenDarFloatView.m in Sources */,
 				1AA7DC881A598E5E00168EA5 /* MKNetworkOperation.m in Sources */,
 				1AA7DC661A598E5E00168EA5 /* UIImage+RoundedCorner.m in Sources */,
 				1A02F8091A5C271900BFE76D /* MainViewController.m in Sources */,
+				1AEC6B131A82725E00E44714 /* ScrollRefreshViewController.m in Sources */,
 				1AA7DC551A598E5E00168EA5 /* KeyChainHelper.m in Sources */,
 				1AA7DC581A598E5E00168EA5 /* NSData+Common.m in Sources */,
 				1AA7DC8C1A598E5E00168EA5 /* Singleton.m in Sources */,
@@ -2048,6 +2070,7 @@
 				1A969AE51A6EB04B0078874B /* NSDate+convenience.m in Sources */,
 				1A770BA91A5D739F0018EA3F /* AddressFakeItem.m in Sources */,
 				1AA7DC4E1A598E5E00168EA5 /* UIView+CaptureImage.m in Sources */,
+				1A4035911A83A94F007BAC37 /* TableRefreshViewController.m in Sources */,
 				1AA7DC481A598E5E00168EA5 /* UITableViewController+ADFlipTransition.m in Sources */,
 				1AC02E301A62A38A003B3ED2 /* MyCollectViewController.m in Sources */,
 			);
@@ -2098,6 +2121,7 @@
 				1A969AE81A6EB04B0078874B /* NSMutableArray+convenience.m in Sources */,
 				1AD531981A6BFBCD001FE4AE /* LunchTimeSettingView.m in Sources */,
 				1AD531991A6BFBCD001FE4AE /* KeyValueTableViewController.m in Sources */,
+				1A4035921A83A94F007BAC37 /* TableRefreshViewController.m in Sources */,
 				1AD5319A1A6BFBCD001FE4AE /* OrderInfoViewController.m in Sources */,
 				1A701FCA1A6FE06B0001385D /* SellerShopViewController.m in Sources */,
 				1A6C67CE1A791CE5001131F9 /* GetShopData.m in Sources */,
@@ -2120,6 +2144,7 @@
 				1AD531A91A6BFBCD001FE4AE /* JSONKit.m in Sources */,
 				1A969AC81A6EA8E40078874B /* SellerOrderDetailViewController.m in Sources */,
 				1AD531AA1A6BFBCD001FE4AE /* UITableView+Refresh.m in Sources */,
+				1AEC6B141A82725E00E44714 /* ScrollRefreshViewController.m in Sources */,
 				1AD531AB1A6BFBCD001FE4AE /* EGORefreshTableHeaderView.m in Sources */,
 				1AD531AC1A6BFBCD001FE4AE /* FTAnimationManager.m in Sources */,
 				1AD531AD1A6BFBCD001FE4AE /* UITableViewCell+MoreButton.m in Sources */,
@@ -2215,6 +2240,7 @@
 				1AD531ED1A6BFBCD001FE4AE /* NSObject+Json.m in Sources */,
 				1AD531EE1A6BFBCD001FE4AE /* DiscoveryListTableViewCell.m in Sources */,
 				1AD531EF1A6BFBCD001FE4AE /* ConfirmOrderViewController.m in Sources */,
+				1AEC6B181A82728D00E44714 /* RefreshView.m in Sources */,
 				1AD531F01A6BFBCD001FE4AE /* SegButton.m in Sources */,
 				1AD531F11A6BFBCD001FE4AE /* WebServiceEngine.m in Sources */,
 				1A4582291A6D594D009F7925 /* SellerEmptyViewController.m in Sources */,
