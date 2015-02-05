@@ -27,7 +27,7 @@
     if (self = [super initWithFrame:frame])
     {
         _selectBottom = [[UIImageView alloc] init];
-        _selectBottom.image = [UIImage imageNamed:@"menu_mark.png"];
+        _selectBottom.image = [UIImage imageNamed:@"menu_mark"];
         [self addSubview:_selectBottom];
         _selectBottom.hidden = YES;
         

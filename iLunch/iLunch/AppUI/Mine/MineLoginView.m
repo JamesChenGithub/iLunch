@@ -73,8 +73,8 @@
     }
     else
     {
-        [_loginButton setBackgroundImage:[UIImage imageNamed:@"btn_login00.png"] forState:UIControlStateNormal];
-        [_loginButton setBackgroundImage:[UIImage imageNamed:@"btn_login01.png"] forState:UIControlStateHighlighted];
+        [_loginButton setBackgroundImage:[UIImage imageNamed:@"btn_login00"] forState:UIControlStateNormal];
+        [_loginButton setBackgroundImage:[UIImage imageNamed:@"btn_login01"] forState:UIControlStateHighlighted];
         [_loginButton setTitle:@"登录" forState:UIControlStateNormal];
         [_loginButton setTitleColor:kWhiteColor forState:UIControlStateNormal];
 #if kIsILunchSeller

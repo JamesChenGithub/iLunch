@@ -31,7 +31,7 @@
 - (void)addOwnViews
 {
     __weak typeof(self) ws = self;
-    _cart = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"icon_shop.png"] action:^(id<MenuAbleItem> menu) {
+    _cart = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"icon_shop"] action:^(id<MenuAbleItem> menu) {
         if (ws.cartAction)
         {
             ws.cartAction(ws);
@@ -43,7 +43,7 @@
     [self addSubview:_account];
     
     _order = [[MenuButton alloc] init];
-    [_order setBackgroundImage:[UIImage imageNamed:@"btn_ok.png"] forState:UIControlStateNormal];
+    [_order setBackgroundImage:[UIImage imageNamed:@"btn_ok"] forState:UIControlStateNormal];
     [_order setTitle:@"选好了" forState:UIControlStateNormal];
     [_order setTitleColor:kWhiteColor forState:UIControlStateNormal];
     [self addSubview:_order];

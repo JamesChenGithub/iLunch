@@ -38,7 +38,7 @@
     
     __weak typeof(self) ws = self;
     
-    _like  = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"menu_icon_heart.png"] action:^(id<MenuAbleItem> menu) {
+    _like  = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"menu_icon_heart"] action:^(id<MenuAbleItem> menu) {
         [ws selectIndex:nil];
         if (ws.likeAction)
         {
@@ -48,13 +48,13 @@
     }];
     [self addSubview:_like];
     
-    _more = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"menu_icon_all.png"] action:^(id<MenuAbleItem> menu) {
+    _more = [[MenuButton alloc] initWithTitle:nil icon:[UIImage imageNamed:@"menu_icon_all"] action:^(id<MenuAbleItem> menu) {
         if (ws.moreAction)
         {
             ws.moreAction(ws);
         }
     }];
-    [_more setBackgroundImage:[UIImage imageNamed:@"pic_bg.png"] forState:UIControlStateNormal];
+    [_more setBackgroundImage:[UIImage imageNamed:@"pic_bg"] forState:UIControlStateNormal];
     [self addSubview:_more];
 }
 

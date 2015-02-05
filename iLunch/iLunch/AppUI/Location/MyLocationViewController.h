@@ -8,14 +8,13 @@
 
 #import "BaseViewController.h"
 
-typedef void (^AddressHandler)(NSString *address);
+typedef void (^AddressHandler)(CityItem *address);
 
-@interface MyLocationViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MyLocationViewController : TableRefreshViewController
 {
     
     ScrollIndexView *_header;
     
-    UITableView *_tableView;
     
     UIButton *_saveAddress;
 }

@@ -20,9 +20,10 @@
 @property (nonatomic, assign) BOOL IsShow;
 @property (nonatomic, strong) NSMutableArray *sections;
 
-// for UI
-@property (nonatomic, assign) BOOL isCheckedInMyLocation;
+- (instancetype)initWith:(CityItem *)item;
 
+
+- (NSString *)getBuildingName;
 
 
 @end
@@ -40,7 +41,6 @@
 @property (nonatomic, copy) NSString *SectionName;
 @property (nonatomic, strong) NSMutableArray *buildings;
 
-@property (nonatomic, assign) BOOL isCheckedInMyLocation;
 
 @end
 
@@ -62,6 +62,8 @@
 @property (nonatomic, copy) NSString *Lat;
 @property (nonatomic, copy) NSString *Lng;
 @property (nonatomic, assign) BOOL isShow;
+
+@property (nonatomic, assign) BOOL isCheckedInMyLocation;
 
 
 @end

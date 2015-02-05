@@ -8,9 +8,8 @@
 
 #import "BaseViewController.h"
 
-@interface DiscoverListViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface DiscoverListViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     UIButton    *_shareDiscovery;
 
     

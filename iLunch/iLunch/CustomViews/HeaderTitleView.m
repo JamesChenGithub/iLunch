@@ -51,7 +51,7 @@
 - (void)addOwnViews
 {
     _locateIcon = [[UIImageView alloc] init];
-//    _locateIcon.image = [UIImage imageNamed:@"icon_place1.png"];
+//    _locateIcon.image = [UIImage imageNamed:@"icon_place1"];
     [self addSubview:_locateIcon];
     
     _buildingName = [[UILabel alloc] init];
@@ -60,7 +60,7 @@
     [self addSubview:_buildingName];
     
     _nextIndicator = [[UIImageView alloc] init];
-    _nextIndicator.image = [UIImage imageNamed:@"btn_).png"];
+    _nextIndicator.image = [UIImage imageNamed:@"btn_)"];
     [self addSubview:_nextIndicator];
     
 

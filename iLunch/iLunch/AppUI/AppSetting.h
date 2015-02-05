@@ -12,10 +12,14 @@
 {
     
     NSString *_lunchTime;
+    
+    CityItem *_myBuilding;
 }
 
 @property (nonatomic, assign) BOOL isAlertLunch;
 @property (nonatomic, copy) NSString *lunchTime;
+
+@property (nonatomic, strong) CityItem *myBuilding;
 
 + (instancetype)shareInstance;
 

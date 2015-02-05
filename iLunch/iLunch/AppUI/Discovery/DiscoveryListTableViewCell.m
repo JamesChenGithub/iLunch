@@ -71,7 +71,7 @@
     _shopAddress.padding = CGSizeMake(0, 0);
     _shopAddress.titleLabel.textAlignment = NSTextAlignmentLeft;
     _shopAddress.titleLabel.font = [DiscoveryListTableViewCell shareFont];
-    UIImage *icon = [UIImage imageNamed:@"icon_place1.png"];
+    UIImage *icon = [UIImage imageNamed:@"icon_place1"];
     _shopAddress.imageSize = icon.size;
     [_shopAddress setImage:icon forState:UIControlStateNormal];
     [_shopAddress setTitleColor:kDetailTextColor forState:UIControlStateNormal];
@@ -82,7 +82,7 @@
     _shopContact.padding = CGSizeMake(0, 0);
     _shopContact.titleLabel.textAlignment = NSTextAlignmentLeft;
     _shopContact.titleLabel.font = [DiscoveryListTableViewCell shareFont];
-    icon = [UIImage imageNamed:@"icon_tel.png"];
+    icon = [UIImage imageNamed:@"icon_tel"];
     _shopContact.imageSize = icon.size;
     [_shopContact setImage:icon forState:UIControlStateNormal];
     [_shopContact setTitleColor:kDetailTextColor forState:UIControlStateNormal];

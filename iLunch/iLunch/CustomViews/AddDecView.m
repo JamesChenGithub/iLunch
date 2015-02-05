@@ -24,13 +24,13 @@
 - (void)addOwnViews
 {
     _editBg = [[UIImageView alloc] init];
-    _editBg.image = [UIImage imageNamed:@"number_edit_bg.png"];
+    _editBg.image = [UIImage imageNamed:@"number_edit_bg"];
     _editBg.userInteractionEnabled = YES;
     [self addSubview:_editBg];
     
     _dec = [[UIButton alloc] init];
-    [_dec setImage:[UIImage imageNamed:@"btn_red00.png"] forState:UIControlStateNormal];
-    [_dec setImage:[UIImage imageNamed:@"btn_red01.png"] forState:UIControlStateSelected];
+    [_dec setImage:[UIImage imageNamed:@"btn_red00"] forState:UIControlStateNormal];
+    [_dec setImage:[UIImage imageNamed:@"btn_red01"] forState:UIControlStateSelected];
     [_dec addTarget:self action:@selector(onDec) forControlEvents:UIControlEventTouchUpInside];
     [_editBg addSubview:_dec];
     
@@ -43,8 +43,8 @@
     [_editBg addSubview:_number];
     
     _add = [[UIButton alloc] init];
-    [_add setImage:[UIImage imageNamed:@"btn_add00.png"] forState:UIControlStateNormal];
-    [_add setImage:[UIImage imageNamed:@"btn_add01.png"] forState:UIControlStateSelected];
+    [_add setImage:[UIImage imageNamed:@"btn_add00"] forState:UIControlStateNormal];
+    [_add setImage:[UIImage imageNamed:@"btn_add01"] forState:UIControlStateSelected];
     [_add addTarget:self action:@selector(onAdd) forControlEvents:UIControlEventTouchUpInside];
     [_editBg addSubview:_add];
 }

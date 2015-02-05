@@ -62,7 +62,7 @@
     {
         return self.city.selectItem && self.section.selectItem;
     }
-
+    
 }
 
 - (void)onSelect:(LocationMenuItem *)item
@@ -79,7 +79,7 @@
     
     self.selectMenu = item;
     
-//    self.selectMenu.value = nil;
+    //    self.selectMenu.value = nil;
     
     
     __weak typeof(self) ws = self;
@@ -111,7 +111,7 @@
     }
     else if (item == self.building)
     {
-         NSArray *list = [self.section.selectItem list];
+        NSArray *list = [self.section.selectItem list];
         if (list == nil)
         {
             GetBuilding *req = [[GetBuilding alloc] initWithHandler:^(BaseRequest *request) {
@@ -119,7 +119,7 @@
                 [ws.tableView reloadData];
             } failHandler:^(BaseRequest *request) {
                 // 选回到City
-                ws.selectMenu = ws.selectMenu;
+                ws.selectMenu = ws.section;
                 [ws backSelectMenu];
             }];
             req.section = (CitySectionItem *)self.section.selectItem;
@@ -132,7 +132,7 @@
         }
     }
     
-//    [_tableView reloadData];
+    //    [_tableView reloadData];
 }
 
 
@@ -147,7 +147,7 @@
     self.city = [[LocationMenuItem alloc] initWithTitle:@"城市" icon:nil action:^(LocationMenuItem *menu) {
         [ws onSelect:menu];
     }];
-
+    
     
     self.section = [[LocationMenuItem alloc] initWithTitle:@"区" icon:nil action:^(LocationMenuItem *menu) {
         [ws onSelect:menu];
@@ -156,7 +156,7 @@
     self.building = [[LocationMenuItem alloc] initWithTitle:@"所在大厦" icon:nil action:^(LocationMenuItem *menu) {
         [ws onSelect:menu];
     }];
-
+    
     
     
     self.selectMenu = self.city;
@@ -165,7 +165,7 @@
     
     _header = [[ScrollIndexView alloc] initWithMenus:self.menuIndexs];
     _header.willClick = ^(LocationMenuItem *item) {
-         return [ws canSelect:item];
+        return [ws canSelect:item];
     };
     
     [self.view addSubview:_header];
@@ -281,7 +281,7 @@
         }
     }
     
-     [_header selectIndexOf:index];
+    [_header selectIndexOf:index];
     
     
     
@@ -304,7 +304,7 @@
         
         [_header selectIndexOf:index+1];
     }
-
+    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -337,13 +337,30 @@
 
 - (void)onSaveAddress:(UIButton *)button
 {
-    NSString *address = [NSString stringWithFormat:@"%@%@%@", [(id<LocationShowAbleItem>)self.city.selectItem showName], [(id<LocationShowAbleItem>)self.section.selectItem showName], [(id<LocationShowAbleItem>)self.building.selectItem showName]];
-    if (_addressCompletion)
+    CityItem *city = (CityItem *)self.city.selectItem;
+    
+    CitySectionItem *sec = (CitySectionItem *)self.section.selectItem;
+    
+    CitySectionBuildingItem *bui = (CitySectionBuildingItem *)self.building.selectItem;
+    
+    if (city && sec && bui)
     {
-        _addressCompletion(address);
+        sec.buildings = [NSMutableArray arrayWithObject:bui];
+        
+        CityItem *item = [[CityItem alloc] initWith:city];
+        item.sections = [NSMutableArray arrayWithObject:sec];
+        
+        [AppSetting shareInstance].myBuilding = item;
+        
+        if (_addressCompletion)
+        {
+            _addressCompletion(city);
+        }
+        
+        [[AppDelegate sharedAppDelegate] popViewController];
     }
     
-    [[AppDelegate sharedAppDelegate] popViewController];
+    
 }
 
 @end

@@ -24,6 +24,7 @@
     _loading = [[UILabel alloc] init];
     _loading.textAlignment = NSTextAlignmentCenter;
     _loading.textColor = kDetailTextColor;
+    _loading.font = [UIFont systemFontOfSize:13];
     [self addSubview:_loading];
     
     _indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];

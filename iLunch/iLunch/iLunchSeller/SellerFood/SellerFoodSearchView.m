@@ -13,7 +13,7 @@
 - (void)addOwnViews
 {
     UIButton *searchButton = [[UIButton alloc] init];
-    UIImage *img = [UIImage imageNamed:@"btn_search1.png"];
+    UIImage *img = [UIImage imageNamed:@"btn_search1"];
     [searchButton setImage:img forState:UIControlStateNormal];
     [searchButton addTarget:self action:@selector(onSearch:) forControlEvents:UIControlEventTouchUpInside];
     searchButton.frame = CGRectFromCGSize(img.size);

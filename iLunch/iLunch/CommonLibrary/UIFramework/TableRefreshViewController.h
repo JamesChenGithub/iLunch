@@ -12,6 +12,7 @@
 {
 @protected
     UITableView                 *_tableView;
+    NSMutableArray              *_datas;
 }
 
 @property (nonatomic, strong) UITableView *tableView;

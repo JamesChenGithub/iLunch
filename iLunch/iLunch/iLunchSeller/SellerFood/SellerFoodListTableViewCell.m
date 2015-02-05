@@ -70,7 +70,7 @@
     _foodPrice.attributedText = attriString;
     
     [_online setTitle:@"上线" forState:UIControlStateNormal];
-    [_online setBackgroundImage:[UIImage imageNamed:@"but_online.png"] forState:UIControlStateNormal];
+    [_online setBackgroundImage:[UIImage imageNamed:@"but_online"] forState:UIControlStateNormal];
     [_online setTitleColor:kBlackColor forState:UIControlStateNormal];
     
     [_state setTitle:@"正常" forState:UIControlStateNormal];

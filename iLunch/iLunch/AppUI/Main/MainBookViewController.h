@@ -8,16 +8,23 @@
 
 #import "BaseViewController.h"
 
-@interface MainBookViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MainBookViewController : TableRefreshViewController
 {
-    HeaderTitleView    *_buildTitle;
+    HeaderTitleView         *_buildTitle;
     ScrollIndexMoreView     *_foodIndex;
-    UITableView             *_tableView;
     ShoppingCartView        *_shoppingCart;
     
     FoodPanel               *_foodPanel;
     ShoppingListView        *_shoppingList;
     
 }
+
+@end
+
+
+@interface MainBookViewController (BookBusiness)
+
+- (void)chooseMyBuilding;
+
 
 @end

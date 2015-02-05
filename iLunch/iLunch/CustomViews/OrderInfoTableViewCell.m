@@ -27,7 +27,7 @@
 
 - (void)configOwnViews
 {
-    MenuItem *headInfo = [[MenuItem alloc] initWithTitle:@"地王大厦1818号" icon:[UIImage imageNamed:@"icon_shop1.png"] action:nil];
+    MenuItem *headInfo = [[MenuItem alloc] initWithTitle:@"地王大厦1818号" icon:[UIImage imageNamed:@"icon_shop1"] action:nil];
     [_shopInfo setHeadInfo:headInfo];
 }
 

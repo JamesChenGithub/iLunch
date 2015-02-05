@@ -8,9 +8,8 @@
 
 #import "BaseViewController.h"
 
-@interface AddressManageViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface AddressManageViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     ImageTitleButton *_addNewAddress;
     
     NSMutableArray *_menus;

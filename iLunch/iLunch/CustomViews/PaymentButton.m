@@ -16,8 +16,8 @@
     if (self = [super initWithFrame:frame])
     {
         _payCheck = [[UIImageView alloc] init];
-        _payCheck.image = [UIImage imageNamed:@"unchecked.png"];
-        _payCheck.highlightedImage = [UIImage imageNamed:@"checked.png"];
+        _payCheck.image = [UIImage imageNamed:@"unchecked"];
+        _payCheck.highlightedImage = [UIImage imageNamed:@"checked"];
         [self addSubview:_payCheck];
     }
     return self;
@@ -27,7 +27,7 @@
 {
     if (self = [super init])
     {
-        [self setImage:[UIImage imageNamed:@"icon_alipay.png"] forState:UIControlStateNormal];
+        [self setImage:[UIImage imageNamed:@"icon_alipay"] forState:UIControlStateNormal];
         [self setTitle:@"支付宝" forState:UIControlStateNormal];
         self.titleLabel.font = [UIFont systemFontOfSize:14];
     }
@@ -37,7 +37,7 @@
 {
     if (self = [super init])
     {
-        [self setImage:[UIImage imageNamed:@"icon_wechat.png"] forState:UIControlStateNormal];
+        [self setImage:[UIImage imageNamed:@"icon_wechat"] forState:UIControlStateNormal];
         [self setTitle:@"微信支付" forState:UIControlStateNormal];
         self.titleLabel.font = [UIFont systemFontOfSize:14];
     }

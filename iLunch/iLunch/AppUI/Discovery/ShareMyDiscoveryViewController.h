@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface ShareMyDiscoveryViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface ShareMyDiscoveryViewController : TableRefreshViewController
 {
     UITextView *_shareText;
     UITableView *_shareItemInfo;

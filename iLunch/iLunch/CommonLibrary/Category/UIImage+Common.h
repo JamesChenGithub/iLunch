@@ -12,13 +12,13 @@
 // 后期定认图片，使用一个专门的头文件
 // 对每个使用的图片名称都定认宏，但不带后缀名
 
-#define PNGName(name)       [NSString stringWithFormat:@"%@%@", name, @".png"]
-#define PNGNameFroPad(name) [NSString stringWithFormat:@"%@%@", name, @"-iPad.png"]
+#define PNGName(name)       [NSString stringWithFormat:@"%@%@", name, @""]
+#define PNGNameFroPad(name) [NSString stringWithFormat:@"%@%@", name, @"-iPad"]
 #define JPGName(name)       [NSString stringWithFormat:@"%@%@", name, @".jpg"]
 #define JPGNameFroPad(name) [NSString stringWithFormat:@"%@%@", name, @"-iPad.jpg"]
 
-//#define PNGNamed(name)      [UIImage imageNamed:@""#name".png"]
-//#define PADPngNamed(name)   [UIImage imageNamed:@""#name"-iPad.png"]
+//#define PNGNamed(name)      [UIImage imageNamed:@""#name""]
+//#define PADPngNamed(name)   [UIImage imageNamed:@""#name"-iPad"]
 //#define JPGNamed(name)      [UIImage imageNamed:@""#name".jpg"]
 //#define PADJPGNamed(name)   [UIImage imageNamed:@""#name"-iPad.jpg"]
 

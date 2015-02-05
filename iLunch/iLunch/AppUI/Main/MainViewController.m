@@ -117,15 +117,15 @@
     //    return;
     
 //         没有调通
-        GetMyAddress *gma = [[GetMyAddress alloc] initWithHandler:^(BaseRequest *request) {
-    
-        }];
-        gma.UserId = 13;
-    gma.PageIndex = 1;
-    gma.PageSize = 5;
-    
-        [[WebServiceEngine sharedEngine] asyncRequest:gma];
-        return;
+//        GetMyAddress *gma = [[GetMyAddress alloc] initWithHandler:^(BaseRequest *request) {
+//    
+//        }];
+//        gma.UserId = 13;
+//    gma.PageIndex = 1;
+//    gma.PageSize = 5;
+//    
+//        [[WebServiceEngine sharedEngine] asyncRequest:gma];
+//        return;
     
     //    GetCartList *gcl = [[GetCartList alloc] initWithHandler:^(BaseRequest *request) {
     //

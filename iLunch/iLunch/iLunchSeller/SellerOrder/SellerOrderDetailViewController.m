@@ -95,7 +95,7 @@
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"订单状态"];
             cell.textLabel.textColor = kMainTextColor;
         }
-        cell.imageView.image = [UIImage imageNamed:@"icon_affirm.png"];
+        cell.imageView.image = [UIImage imageNamed:@"icon_affirm"];
         cell.textLabel.text = @"交易成功";
         return cell;
     }

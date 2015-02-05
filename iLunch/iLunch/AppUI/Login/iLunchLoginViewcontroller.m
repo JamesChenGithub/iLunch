@@ -46,11 +46,11 @@
 
 - (void)addInputs
 {
-    _account = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_user.png"]];
+    _account = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_user"]];
     _account.font = [UIFont systemFontOfSize:14];
     [self.view addSubview:_account];
     
-    _passwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password.png"]];
+    _passwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password"]];
     _passwd.secureTextEntry = YES;
     _passwd.font = [UIFont systemFontOfSize:14];
     [self.view addSubview:_passwd];
@@ -81,8 +81,8 @@
     
     
     _login = [[UIButton alloc] init];
-    [_login setBackgroundImage:[UIImage imageNamed:@"btn_login00_b.png"] forState:UIControlStateNormal];
-    [_login setBackgroundImage:[UIImage imageNamed:@"btn_login01_b.png"] forState:UIControlStateHighlighted];
+    [_login setBackgroundImage:[UIImage imageNamed:@"btn_login00_b"] forState:UIControlStateNormal];
+    [_login setBackgroundImage:[UIImage imageNamed:@"btn_login01_b"] forState:UIControlStateHighlighted];
     [_login setTitle:@"登录" forState:UIControlStateNormal];
     [_login setTitleColor:kWhiteColor forState:UIControlStateNormal];
     [self.view addSubview:_login];
@@ -94,11 +94,11 @@
     [self.view addSubview:_loginTip];
     
     _wechatLogin = [[UIButton alloc] init];
-    [_wechatLogin setImage:[UIImage imageNamed:@"logo_wechat.png"] forState:UIControlStateNormal];
+    [_wechatLogin setImage:[UIImage imageNamed:@"logo_wechat"] forState:UIControlStateNormal];
     [self.view addSubview:_wechatLogin];
     
     _qqLogin = [[UIButton alloc] init];
-    [_qqLogin setImage:[UIImage imageNamed:@"logo_qq.png"] forState:UIControlStateNormal];
+    [_qqLogin setImage:[UIImage imageNamed:@"logo_qq"] forState:UIControlStateNormal];
     [self.view addSubview:_qqLogin];
     
 }

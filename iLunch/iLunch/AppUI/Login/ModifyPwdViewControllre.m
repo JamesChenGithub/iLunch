@@ -44,7 +44,7 @@
 
 - (void)addInputs
 {
-    _pwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password.png"]];
+    _pwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password"]];
     _pwd.secureTextEntry = YES;
     [self.view addSubview:_pwd];
     
@@ -54,7 +54,7 @@
     _pwdTip.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_pwdTip];
     
-    _newPwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_passok.png"]];
+    _newPwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_passok"]];
     _newPwd.secureTextEntry = YES;
     [self.view addSubview:_newPwd];
     
@@ -64,7 +64,7 @@
     _newPwdTip.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_newPwdTip];
     
-    _confirmPwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_passok.png"]];
+    _confirmPwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_passok"]];
     _confirmPwd.secureTextEntry = YES;
     [self.view addSubview:_confirmPwd];
     

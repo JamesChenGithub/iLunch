@@ -13,20 +13,20 @@
 - (void)addOwnViews
 {
     _date = [[UIButton alloc] init];
-    [_date setImage:[UIImage imageNamed:@"icon_calendar.png"] forState:UIControlStateNormal];
+    [_date setImage:[UIImage imageNamed:@"icon_calendar"] forState:UIControlStateNormal];
     [_date addTarget:self action:@selector(onClickDate:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_date];
     
     
     _searchBg = [[UIImageView alloc] init];
-    _searchBg.image = [UIImage imageNamed:@"bg_search_s.png"];
+    _searchBg.image = [UIImage imageNamed:@"bg_search_s"];
     _searchBg.userInteractionEnabled = YES;
     [self addSubview:_searchBg];
     
 
     
     UIButton *searchButton = [[UIButton alloc] init];
-    UIImage *img = [UIImage imageNamed:@"btn_search1.png"];
+    UIImage *img = [UIImage imageNamed:@"btn_search1"];
     [searchButton setImage:img forState:UIControlStateNormal];
     [searchButton addTarget:self action:@selector(onSearch:) forControlEvents:UIControlEventTouchUpInside];
     searchButton.frame = CGRectFromCGSize(img.size);

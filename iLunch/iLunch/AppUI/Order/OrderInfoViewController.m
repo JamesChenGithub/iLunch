@@ -15,7 +15,7 @@
     _lunchTime = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightLeft];
     _lunchTime.titleLabel.textAlignment = NSTextAlignmentLeft;
     _lunchTime.titleLabel.font = [UIFont systemFontOfSize:14];
-    UIImage *icon = [UIImage imageNamed:@"icon_time.png"];
+    UIImage *icon = [UIImage imageNamed:@"icon_time"];
     _lunchTime.imageSize = icon.size;
     [_lunchTime setImage:icon forState:UIControlStateNormal];
     [_lunchTime setTitle:@"距用餐时间还有：3时45分" forState:UIControlStateNormal];
@@ -26,7 +26,7 @@
     _orderNum = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightLeft];
     _orderNum.titleLabel.textAlignment = NSTextAlignmentLeft;
     _orderNum.titleLabel.font = [UIFont systemFontOfSize:14];
-    icon = [UIImage imageNamed:@"icon_order.png"];
+    icon = [UIImage imageNamed:@"icon_order"];
     _orderNum.imageSize = icon.size;
     [_orderNum setImage:icon forState:UIControlStateNormal];
     [_orderNum setTitle:@"订单号：1313341213412341234213" forState:UIControlStateNormal];

@@ -21,9 +21,8 @@ typedef enum
 }AddNewAddressViewCellStyle;
 
 
-@interface AddNewAddressViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface AddNewAddressViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     UIButton *_saveAddress;
 }
 

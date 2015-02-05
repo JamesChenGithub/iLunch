@@ -17,8 +17,8 @@
     _method.textColor = kMainTextColor;
     [self addSubview:_method];
     
-    UIImage *uncheck = [UIImage imageNamed:@"unchecked.png"];
-    UIImage *check = [UIImage imageNamed:@"checked.png"];
+    UIImage *uncheck = [UIImage imageNamed:@"unchecked"];
+    UIImage *check = [UIImage imageNamed:@"checked"];
     
     _order = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightCenter];
     _order.imageSize = uncheck.size;

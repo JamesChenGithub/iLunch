@@ -18,7 +18,7 @@
 - (void)addOwnViews
 {
     _imageView = [[UIImageView alloc] init];
-    _imageView.image = [UIImage imageNamed:@"ilunch_logo.png"];
+    _imageView.image = [UIImage imageNamed:@"ilunch_logo"];
     [self.view addSubview:_imageView];
     
     _emptyTip = [[UILabel alloc] init];

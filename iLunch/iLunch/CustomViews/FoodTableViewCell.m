@@ -290,7 +290,7 @@
     
     
     _addButton = [[UIButton alloc] init];
-    [_addButton setImage:[UIImage imageNamed:@"btn_add.png"] forState:UIControlStateNormal];
+    [_addButton setImage:[UIImage imageNamed:@"btn_add"] forState:UIControlStateNormal];
     [_addButton addTarget:self action:@selector(onAddOrder) forControlEvents:UIControlEventTouchUpInside];
     [_contentPanel addSubview:_addButton];
     
@@ -310,7 +310,7 @@
     _foodPrice.font = [UIFont systemFontOfSize:12];
     [_contentPanel addSubview:_foodPrice];
     
-    UIImage *commentIcon = [UIImage imageNamed:@"icon_comment.png"];
+    UIImage *commentIcon = [UIImage imageNamed:@"icon_comment"];
     _comment = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightLeft];
     _comment.margin = UIEdgeInsetsZero;
     _comment.padding = CGSizeMake(0, 0);
@@ -322,7 +322,7 @@
     [_comment addTarget:self action:@selector(onComment:) forControlEvents:UIControlEventTouchUpInside];
     [_contentPanel addSubview:_comment];
     
-    UIImage *praiseIcon = [UIImage imageNamed:@"icon_good00.png"];
+    UIImage *praiseIcon = [UIImage imageNamed:@"icon_good00"];
     _praise = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightLeft];
     _praise.margin = UIEdgeInsetsZero;
     _praise.padding = CGSizeMake(0, 0);
@@ -336,8 +336,8 @@
     
     
     _likeByCurrentUser = [[UIButton alloc] init];
-    [_likeByCurrentUser setImage:[UIImage imageNamed:@"icon_heart01_s.png"] forState:UIControlStateNormal];
-    [_likeByCurrentUser setImage:[UIImage imageNamed:@"menu_icon_heart.png"] forState:UIControlStateSelected];
+    [_likeByCurrentUser setImage:[UIImage imageNamed:@"icon_heart01_s"] forState:UIControlStateNormal];
+    [_likeByCurrentUser setImage:[UIImage imageNamed:@"menu_icon_heart"] forState:UIControlStateSelected];
     [_likeByCurrentUser addTarget:self action:@selector(onLikeByCurrentUser:) forControlEvents:UIControlEventTouchUpInside];
     [_contentPanel addSubview:_likeByCurrentUser];
     

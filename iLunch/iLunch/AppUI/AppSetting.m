@@ -13,6 +13,8 @@
 #define kAppSetting_isAlertLunch    @"kAppSetting_isAlertLunch"
 #define kAppSetting_LunchTime       @"kAppSetting_LunchTime"
 
+#define kAppSetting_MyBuilding      @"kAppSetting_MyBuilding"
+
 static AppSetting *_shareInstance = nil;
 
 + (instancetype)shareInstance;
@@ -32,15 +34,25 @@ static AppSetting *_shareInstance = nil;
     {
         
         // load isAlertLunch
-        _isAlertLunch = [(NSNumber *)[[NSUserDefaults standardUserDefaults] objectForKey:kAppSetting_isAlertLunch] boolValue];
+        [self loadLaunchSetting];
         
-        _lunchTime = (NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:kAppSetting_LunchTime];
+        // 加载位置
+        
+        [self loadMyBuilding];
+        
         
     }
     return self;
 }
 
+#pragma mark - LunchSetting
 
+- (void)loadLaunchSetting
+{
+    _isAlertLunch = [(NSNumber *)[[NSUserDefaults standardUserDefaults] objectForKey:kAppSetting_isAlertLunch] boolValue];
+    
+    _lunchTime = (NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:kAppSetting_LunchTime];
+}
 
 - (void)setIsAlertLunch:(BOOL)isAlertLunch
 {
@@ -77,6 +89,82 @@ static AppSetting *_shareInstance = nil;
     return _lunchTime;
 }
 
+
+#pragma mark - MyBuilding
+
+- (void)saveMyBuilding
+{
+    NSDictionary *dic = [_myBuilding jsonDictionary];
+    
+    if ([NSJSONSerialization isValidJSONObject:dic])
+    {
+        NSError *error = nil;
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
+        if (!error)
+        {
+            NSString *json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+            if (![NSString isEmpty:json])
+            {
+                [[NSUserDefaults standardUserDefaults] setObject:json forKey:kAppSetting_MyBuilding];
+            }
+            else
+            {
+                DebugLog(@"保存地址失败");
+            }
+        }
+        else
+        {
+            DebugLog(@"保存地址失败");
+        }
+        
+    }
+    else
+    {
+        DebugLog(@"保存地址失败");
+    }
+}
+
+- (void)setMyBuilding:(CityItem *)myBuilding
+{
+    if (_myBuilding == myBuilding)
+    {
+        return;
+    }
+    
+    _myBuilding = myBuilding;
+    
+    [self saveMyBuilding];
+}
+
+- (void)loadMyBuilding
+{
+    NSString *json = [[NSUserDefaults standardUserDefaults] objectForKey:kAppSetting_MyBuilding];
+    if (![NSString isEmpty:json])
+    {
+        NSDictionary *dic = [json objectFromJSONString];
+        
+        NSArray *sectionsArray = dic[@"sections"];
+        
+        NSMutableArray *secs = [NSMutableArray array];
+        
+        for (NSDictionary *secDic in sectionsArray)
+        {
+            
+            CitySectionItem *item = [NSObject parse:[CitySectionItem class] dictionary:secDic];
+            NSArray *buildsArray = secDic[@"buildings"];
+            item.buildings = [NSObject loadItem:[CitySectionBuildingItem class] fromArrayDictionary:buildsArray];
+            
+            if (item)
+            {
+                [secs addObject:item];
+            }
+        }
+        
+        _myBuilding = [NSObject parse:[CityItem class] dictionary:dic itemClass:[CitySectionItem class]];
+        _myBuilding.sections = secs;
+    }
+    
+}
 
 
 @end

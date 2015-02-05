@@ -8,10 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface MineViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MineViewController : TableRefreshViewController
 {
 @protected
-    UITableView *_tableView;
     
     NSMutableArray *_menus;
 }

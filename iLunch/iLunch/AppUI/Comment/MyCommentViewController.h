@@ -8,9 +8,8 @@
 
 #import "BaseViewController.h"
 
-@interface MyCommentViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MyCommentViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     NSMutableArray *_commentItems;
 }
 

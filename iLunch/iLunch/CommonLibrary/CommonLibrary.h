@@ -9,6 +9,11 @@
 #ifndef CommonLibrary_CommonLibrary_h
 #define CommonLibrary_CommonLibrary_h
 
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <BlocksKit+QuickLook.h>
+#import <BlocksKit+MessageUI.h>
+
 //
 //====================
 // 常用category

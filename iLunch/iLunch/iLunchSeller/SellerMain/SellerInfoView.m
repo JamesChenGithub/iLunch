@@ -29,7 +29,7 @@
 
 - (void)configOwnViews
 {
-    [_addButton setImage:[UIImage imageNamed:@"head_add.png"] forState:UIControlStateNormal];
+    [_addButton setImage:[UIImage imageNamed:@"head_add"] forState:UIControlStateNormal];
     _addTip.text = @"添加商标图片";
 }
 

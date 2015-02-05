@@ -31,37 +31,37 @@
     _foodItems = [NSMutableArray array];
     
     __weak typeof(self) ws = self;
-    MenuItem *item = [[MenuItem alloc] initWithTitle:@"全部" icon:[UIImage imageNamed:@"menu_icon_all.png"] action:^(id<MenuAbleItem> menu) {
+    MenuItem *item = [[MenuItem alloc] initWithTitle:@"全部" icon:[UIImage imageNamed:@"menu_icon_all"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"套餐" icon:[UIImage imageNamed:@"menu_icon_plans.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"套餐" icon:[UIImage imageNamed:@"menu_icon_plans"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"饭" icon:[UIImage imageNamed:@"menu_icon_rice.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"饭" icon:[UIImage imageNamed:@"menu_icon_rice"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"粉面" icon:[UIImage imageNamed:@"menu_icon_noodles.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"粉面" icon:[UIImage imageNamed:@"menu_icon_noodles"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"熟食" icon:[UIImage imageNamed:@"menu_icon_sushi.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"熟食" icon:[UIImage imageNamed:@"menu_icon_sushi"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"西餐" icon:[UIImage imageNamed:@"menu_icon_food.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"西餐" icon:[UIImage imageNamed:@"menu_icon_food"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"清真" icon:[UIImage imageNamed:@"menu_icon_halal.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"清真" icon:[UIImage imageNamed:@"menu_icon_halal"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];

@@ -26,37 +26,37 @@
     _foodItems = [NSMutableArray array];
     
     __weak typeof(self) ws = self;
-    MenuItem *item = [[MenuItem alloc] initWithTitle:@"全部" icon:[UIImage imageNamed:@"menu_icon_all.png"] action:^(id<MenuAbleItem> menu) {
+    MenuItem *item = [[MenuItem alloc] initWithTitle:@"全部" icon:[UIImage imageNamed:@"menu_icon_all"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"套餐" icon:[UIImage imageNamed:@"menu_icon_plans.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"套餐" icon:[UIImage imageNamed:@"menu_icon_plans"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"饭" icon:[UIImage imageNamed:@"menu_icon_rice.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"饭" icon:[UIImage imageNamed:@"menu_icon_rice"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"粉面" icon:[UIImage imageNamed:@"menu_icon_noodles.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"粉面" icon:[UIImage imageNamed:@"menu_icon_noodles"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"熟食" icon:[UIImage imageNamed:@"menu_icon_sushi.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"熟食" icon:[UIImage imageNamed:@"menu_icon_sushi"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"西餐" icon:[UIImage imageNamed:@"menu_icon_food.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"西餐" icon:[UIImage imageNamed:@"menu_icon_food"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
     
-    item = [[MenuItem alloc] initWithTitle:@"清真" icon:[UIImage imageNamed:@"menu_icon_halal.png"] action:^(id<MenuAbleItem> menu) {
+    item = [[MenuItem alloc] initWithTitle:@"清真" icon:[UIImage imageNamed:@"menu_icon_halal"] action:^(id<MenuAbleItem> menu) {
         [ws onSelectMenu:menu];
     }];
     [_foodItems addObject:item];
@@ -131,11 +131,8 @@
     
     __weak typeof(self) ws = self;
     
-    MenuItem *headInfo = [[MenuItem alloc] initWithTitle:@"地王大厦1818号" icon:[UIImage imageNamed:@"icon_place1.png"] action:^(id<MenuAbleItem> menu) {
-        MyLocationViewController *lv = [[MyLocationViewController alloc] init];
-        [[AppDelegate sharedAppDelegate] pushViewController:lv];
-    }];
-    _buildTitle = [[HeaderTitleView alloc] initWith:headInfo];
+    
+    _buildTitle = [[HeaderTitleView alloc] init];
     [self.view addSubview:_buildTitle];
     
     
@@ -158,14 +155,45 @@
         [ws expandShoppingList];
     }];
     [self.view addSubview:_shoppingCart];
-}
-
-- (void)configOwnViews
-{
     _shoppingCart.orderAction = ^(id<MenuAbleItem> item){
         ConfirmOrderViewController *info = [[ConfirmBookOrderViewController alloc] init];
         [[AppDelegate sharedAppDelegate] pushViewController:info];
     };
+}
+
+- (void)skipToMyLocation
+{
+     __weak typeof(self) ws = self;
+    MyLocationViewController *lv = [[MyLocationViewController alloc] init];
+    lv.addressCompletion = ^(CityItem *item) {
+        [ws configOwnViews];
+    };
+    [[AppDelegate sharedAppDelegate] pushViewController:lv];
+}
+
+- (void)configOwnViews
+{
+    CityItem *item = [AppSetting shareInstance].myBuilding;
+    __weak typeof(self) ws = self;
+    if (item)
+    {
+        
+        MenuItem *headInfo = [[MenuItem alloc] initWithTitle:[item getBuildingName] icon:[UIImage imageNamed:@"icon_place1"] action:^(id<MenuAbleItem> menu) {
+            [ws skipToMyLocation];
+        }];
+        _buildTitle.headInfo = headInfo;
+    }
+    else
+    {
+        
+        UIAlertView *alert = [UIAlertView bk_showAlertViewWithTitle:@"选择位置" message:@"您还没有选择你的大厦" cancelButtonTitle:@"去选择" otherButtonTitles:nil handler: ^(UIAlertView *alertView, NSInteger buttonIndex){
+            [ws skipToMyLocation];
+        }];
+        [alert show];
+    }
+    
+    
+
 }
 
 - (void)layoutOnIPhone

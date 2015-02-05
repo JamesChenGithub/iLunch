@@ -70,7 +70,7 @@
     {
         self.textLabel.font = [UIFont systemFontOfSize:14];
         self.textLabel.textColor = kDarkGrayColor;
-        self.imageView.image = [UIImage imageNamed:@"icon_user.png"];
+        self.imageView.image = [UIImage imageNamed:@"icon_user"];
         
         [self configOwnViews];
     }

@@ -8,9 +8,8 @@
 
 #import "BaseViewController.h"
 
-@interface MyCollectViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MyCollectViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     NSMutableArray *_collectItems;
 }
 

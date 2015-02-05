@@ -8,9 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface MineSettingViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MineSettingViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
+
     UIButton *_logoutButton;
     
     NSMutableArray *_menus;

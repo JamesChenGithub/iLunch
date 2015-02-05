@@ -12,19 +12,19 @@
 
 - (void)addInputs
 {
-    _account = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_phone.png"]];
+    _account = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_phone"]];
     _account.font = [UIFont systemFontOfSize:14];
     [self.view addSubview:_account];
     
     UIButton *code = [[UIButton alloc] init];
-    UIImage *icon = [UIImage imageNamed:@"btn_d_password00.png"];
+    UIImage *icon = [UIImage imageNamed:@"btn_d_password00"];
     [code setBackgroundImage:icon forState:UIControlStateNormal];
     [code setTitle:@"发送动态验证码" forState:UIControlStateNormal];
     [code setTitleColor:kWhiteColor forState:UIControlStateNormal];
     code.titleLabel.font = [UIFont systemFontOfSize:9];
     code.frame = CGRectFromCGSize(icon.size);
     
-    _passwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password.png"]];
+    _passwd = [[UITextField alloc] initLeftIconWith:[UIImage imageNamed:@"icon_password"]];
     _passwd.secureTextEntry = YES;
     _passwd.rightViewMode = UITextFieldViewModeAlways;
     _passwd.rightView = code;
@@ -53,14 +53,14 @@
     
     
     _forgetpwd = [[UIButton alloc] init];
-    [_forgetpwd setBackgroundImage:[UIImage imageNamed:@"btn_revise00.png"] forState:UIControlStateNormal];
-    [_forgetpwd setBackgroundImage:[UIImage imageNamed:@"btn_revise01.png"] forState:UIControlStateHighlighted];
+    [_forgetpwd setBackgroundImage:[UIImage imageNamed:@"btn_revise00"] forState:UIControlStateNormal];
+    [_forgetpwd setBackgroundImage:[UIImage imageNamed:@"btn_revise01"] forState:UIControlStateHighlighted];
     [_forgetpwd setTitle:@"修改密码" forState:UIControlStateNormal];
     [_forgetpwd setTitleColor:kMainTextColor forState:UIControlStateNormal];
     [self.view addSubview:_forgetpwd];
     
     _ilunchLogin = [[UIButton alloc] init];
-    [_ilunchLogin setImage:[UIImage imageNamed:@"logo_ilunch.png"] forState:UIControlStateNormal];
+    [_ilunchLogin setImage:[UIImage imageNamed:@"logo_ilunch"] forState:UIControlStateNormal];
     [_ilunchLogin addTarget:self action:@selector(onLunchLogin) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_ilunchLogin];
 }

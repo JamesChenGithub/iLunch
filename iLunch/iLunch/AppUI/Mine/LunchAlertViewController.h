@@ -13,9 +13,8 @@ typedef enum {
     ELunchAlertCellType_CurrentTime,
 }LunchAlertCellType;
 
-@interface LunchAlertViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+@interface LunchAlertViewController : TableRefreshViewController
 {
-    UITableView *_tableView;
     ImageTitleButton *_setLunchTime;
     NSMutableArray *_menus;
 }

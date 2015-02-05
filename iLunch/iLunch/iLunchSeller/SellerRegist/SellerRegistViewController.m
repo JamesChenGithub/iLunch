@@ -30,7 +30,7 @@
     
     
     _addEdit = [[ImageTitleButton alloc] initWithStyle:EImageLeftTitleRightCenter];
-    UIImage *img = [UIImage imageNamed:@"place_edit_icon.png"];
+    UIImage *img = [UIImage imageNamed:@"place_edit_icon"];
     [_addEdit setImageSize:img.size];
     [_addEdit setTitleColor:kLightGrayColor forState:UIControlStateNormal];
     [_addEdit setImage:img forState:UIControlStateNormal];
